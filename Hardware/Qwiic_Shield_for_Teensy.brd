@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
@@ -4416,10 +4416,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$3">
 <contactref element="JP11" pad="3.3V"/>
 <contactref element="3V3_ISO" pad="2"/>
-<wire x1="11.43" y1="34.29" x2="11.43" y2="28.48979375" width="0.508" layer="16"/>
-<wire x1="11.43" y1="28.48979375" x2="11.3157" y2="28.37549375" width="0.508" layer="16"/>
-<wire x1="11.3157" y1="28.37549375" x2="11.3157" y2="28.067" width="0.508" layer="16"/>
-<wire x1="11.3157" y1="28.067" x2="11.4173" y2="28.067" width="0" layer="19" extent="16-16"/>
+<wire x1="11.4173" y1="28.067" x2="11.4173" y2="34.2773" width="0.508" layer="16"/>
+<wire x1="11.4173" y1="34.2773" x2="11.43" y2="34.29" width="0.508" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="J5" pad="2"/>
