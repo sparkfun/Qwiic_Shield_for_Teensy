@@ -25849,10 +25849,10 @@ If you are using the "shorter" boards, you can break this away on the v-score.</
 <attribute name="NAME" x="185.42" y="109.474" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND1" gate="1" x="205.74" y="91.44" smashed="yes">
-<attribute name="VALUE" x="205.74" y="91.186" size="1.778" layer="96" align="top-center"/>
+<attribute name="VALUE" x="205.74" y="91.186" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="208.28" y="162.56" smashed="yes">
-<attribute name="VALUE" x="208.28" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="208.28" y="165.354" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="154.94" y="40.64" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="228.6" y="63.5" smashed="yes"/>
@@ -25861,14 +25861,14 @@ If you are using the "shorter" boards, you can break this away on the v-score.</
 <instance part="FD3" gate="G$1" x="241.3" y="27.94" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="246.38" y="27.94" smashed="yes"/>
 <instance part="JP11" gate="G$1" x="86.36" y="124.46" smashed="yes">
-<attribute name="NAME" x="81.28" y="157.48" size="1.778" layer="95" align="top-left"/>
-<attribute name="VALUE" x="81.28" y="88.9" size="1.778" layer="96"/>
+<attribute name="NAME" x="81.28" y="157.48" size="1.778" layer="95" font="vector" align="top-left"/>
+<attribute name="VALUE" x="81.28" y="88.9" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND3" gate="1" x="58.42" y="88.9" smashed="yes">
-<attribute name="VALUE" x="55.88" y="86.36" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="63.5" y="88.9" smashed="yes">
+<attribute name="VALUE" x="60.96" y="86.36" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="45.72" y="114.3" smashed="yes">
-<attribute name="VALUE" x="44.704" y="117.856" size="1.778" layer="96"/>
+<attribute name="VALUE" x="44.704" y="117.856" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R3" gate="G$1" x="114.3" y="154.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="115.824" y="154.94" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
@@ -25882,7 +25882,7 @@ If you are using the "shorter" boards, you can break this away on the v-score.</
 <attribute name="NAME" x="123.952" y="158.877" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="121.92" y="170.18" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="121.92" y="172.974" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="121.92" y="172.974" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="LOGO4" gate="G$1" x="228.6" y="48.26" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="187.4266" y="53.2384" smashed="yes"/>
@@ -25899,7 +25899,7 @@ If you are using the "shorter" boards, you can break this away on the v-score.</
 <attribute name="VALUE" x="50.8" y="109.22" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="GND2" gate="1" x="22.86" y="104.14" smashed="yes">
-<attribute name="VALUE" x="20.32" y="101.6" size="1.778" layer="96"/>
+<attribute name="VALUE" x="20.32" y="101.6" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="D1_BP" gate="G$1" x="35.56" y="93.98" smashed="yes">
 <attribute name="NAME" x="33.02" y="96.52" size="1.778" layer="95" font="vector"/>
@@ -25942,7 +25942,7 @@ If you are using the "shorter" boards, you can break this away on the v-score.</
 <attribute name="VALUE" x="108.712" y="137.16" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="GND4" gate="1" x="109.22" y="127" smashed="yes">
-<attribute name="VALUE" x="106.68" y="124.46" size="1.778" layer="96"/>
+<attribute name="VALUE" x="106.68" y="124.46" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -25969,17 +25969,17 @@ If you are using the "shorter" boards, you can break this away on the v-score.</
 </segment>
 <segment>
 <pinref part="JP11" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="96.52" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="96.52" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="G$1" pin="GND1"/>
-<wire x1="58.42" y1="93.98" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
-<junction x="58.42" y="93.98"/>
+<wire x1="63.5" y1="93.98" x2="63.5" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
+<junction x="63.5" y="93.98"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="JP11" gate="G$1" pin="AGND"/>
-<wire x1="68.58" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="99.06" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
-<junction x="58.42" y="96.52"/>
+<wire x1="68.58" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="99.06" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
+<junction x="63.5" y="96.52"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="109.22" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
