@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -4182,17 +4182,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J2" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RA" x="8.89" y="5.08" smashed="yes">
 <attribute name="NAME" x="7.493" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="8.89" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="7.239" y="1.778" size="0.6096" layer="27" font="vector" ratio="20"/>
+<attribute name="VALUE" x="7.0104" y="0.7874" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RA" x="6.35" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.747" y="25.019" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="CONN-13694" x="6.35" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="8.001" y="26.162" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="8.3312" y="27.178" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="J5" library="SparkFun-Connectors" package="JST04_1MM_VERT" value="QWIIC_Vertical" x="6.35" y="21.59" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.334" y="17.02366875" size="0.6096" layer="25" rot="R180"/>
 <attribute name="PROD_ID" value="CONN-14483" x="6.35" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="6.334" y="22.88633125" size="0.6096" layer="27" rot="R180"/>
+<attribute name="VALUE" x="9.2042" y="17.24753125" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="8.9408" y="28.829" smashed="yes" rot="MR0"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="8.89" y="17.78" smashed="yes" rot="MR0"/>
@@ -4208,12 +4208,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R3" library="SparkFun-Resistors" package="0603" value="4.7k" x="13.6144" y="14.3256" smashed="yes">
 <attribute name="NAME" x="13.6144" y="15.0876" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07857" x="13.6144" y="19.4056" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="13.6144" y="13.5636" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="13.6144" y="15.621" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="4.7k" x="13.6144" y="12.3952" smashed="yes">
 <attribute name="NAME" x="13.6144" y="13.1572" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07857" x="9.8044" y="13.6652" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="13.6144" y="11.6332" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="VALUE" x="13.6652" y="13.6398" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="I2C" library="SparkFun-Jumpers" package="SMT-JUMPER_3_NO_SILK" package3d_urn="urn:adsk.eagle:package:39285/1" value="JUMPER-SMT_3_NO_SILK" x="13.462" y="10.922" smashed="yes" rot="MR180">
 <attribute name="NAME" x="13.462" y="9.779" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
@@ -4225,14 +4225,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="SparkFun-Connectors" package="JST04_1MM_VERT" value="QWIIC_Vertical" x="8.89" y="6.35" smashed="yes">
 <attribute name="NAME" x="8.906" y="10.91633125" size="0.6096" layer="25"/>
 <attribute name="PROD_ID" value="CONN-14483" x="0" y="15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="8.906" y="5.05366875" size="0.6096" layer="27"/>
+<attribute name="VALUE" x="6.0612" y="10.69246875" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="U$15" library="output" package="#3V3#0" value="" x="5.9182" y="6.3754" smashed="yes" rot="MR0"/>
 <element name="U$18" library="output" package="#SDA#0" value="" x="1.778" y="21.59" smashed="yes" rot="MR0"/>
 <element name="U$19" library="output" package="#SCL#0" value="" x="1.7526" y="19.0754" smashed="yes" rot="MR0"/>
 <element name="J6" library="SparkFun-Connectors" package="1X02_NO_SILK" value="ALT PWR" x="13.97" y="1.27" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.573" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="16.002" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="15.5448" y="0.5842" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="3V3_ISO" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="" x="7.62" y="5.842" smashed="yes" rot="MR0">
 <attribute name="NAME" x="7.62" y="6.985" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
@@ -4247,12 +4247,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="3A/10V/280mV" x="13.97" y="7.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.732" y="7.62" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-14072" x="13.97" y="7.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="13.208" y="7.62" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="15.4432" y="7.6962" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="" x="12.7" y="22.86" smashed="yes" rot="R270">
+<element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="SMD_5.2MM" x="12.7" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.367" y="22.86" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="SWCH-14139" x="12.7" y="22.86" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="10.033" y="22.86" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="12.6238" y="21.59" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$5" library="output" package="#ALT_3V3#0" value="" x="9.525" y="3.81" smashed="yes" rot="MR0"/>
 <element name="U$7" library="output" package="#GND#0" value="" x="11.303" y="1.27" smashed="yes" rot="MR0"/>
@@ -4311,14 +4311,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="8.412" y1="7.125" x2="8.412" y2="9.2156" width="0.508" layer="1"/>
 <wire x1="8.412" y1="9.2156" x2="8.4074" y2="9.2202" width="0.508" layer="1"/>
 <via x="8.4074" y="9.2202" extent="1-16" drill="0.381"/>
-<wire x1="6.858" y1="22.868" x2="6.85" y2="22.86" width="0.508" layer="1"/>
 <wire x1="6.828" y1="20.815" x2="6.828" y2="22.838" width="0.508" layer="1"/>
 <wire x1="6.828" y1="22.838" x2="6.85" y2="22.86" width="0.508" layer="1"/>
 <wire x1="8.39" y1="5.08" x2="8.39" y2="4.0814" width="0.508" layer="1"/>
 <wire x1="8.39" y1="4.0814" x2="8.6868" y2="3.7846" width="0.508" layer="1"/>
 <wire x1="8.6868" y1="3.7846" x2="10.9474" y2="3.7846" width="0.508" layer="1"/>
 <wire x1="11.3792" y1="4.2164" x2="10.9474" y2="3.7846" width="0.508" layer="1"/>
-<wire x1="13.462" y1="10.922" x2="13.4874" y2="10.8966" width="0.254" layer="16"/>
 <wire x1="8.1407" y1="5.842" x2="8.1407" y2="8.9535" width="0.508" layer="16"/>
 <wire x1="8.1407" y1="8.9535" x2="8.4074" y2="9.2202" width="0.508" layer="16"/>
 <wire x1="13.5128" y1="8.5852" x2="14.6431" y2="8.5852" width="0.508" layer="16"/>
@@ -4381,13 +4379,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="4.828" y1="20.815" x2="4.828" y2="16.2794" width="0.254" layer="1"/>
 <wire x1="4.85" y1="22.86" x2="4.85" y2="20.837" width="0.254" layer="1"/>
 <wire x1="4.85" y1="20.837" x2="4.828" y2="20.815" width="0.254" layer="1"/>
-<wire x1="1.27" y1="19.05" x2="2.4892" y2="20.2692" width="0.254" layer="1"/>
 <wire x1="3.3274" y1="23.749" x2="3.6322" y2="24.0538" width="0.254" layer="1"/>
 <wire x1="3.6322" y1="24.0538" x2="4.5466" y2="24.0538" width="0.254" layer="1"/>
 <wire x1="4.85" y1="23.7504" x2="4.85" y2="22.86" width="0.254" layer="1"/>
-<wire x1="2.4892" y1="20.2692" x2="2.4892" y2="20.9042" width="0.254" layer="1"/>
-<wire x1="2.4892" y1="20.9042" x2="3.3274" y2="21.7424" width="0.254" layer="1"/>
-<wire x1="3.3274" y1="21.7424" x2="3.3274" y2="23.749" width="0.254" layer="1"/>
+<wire x1="1.27" y1="19.05" x2="3.3274" y2="21.1074" width="0.254" layer="1"/>
+<wire x1="3.3274" y1="21.1074" x2="3.3274" y2="23.749" width="0.254" layer="1"/>
 <wire x1="4.5466" y1="24.0538" x2="4.85" y2="23.7504" width="0.254" layer="1"/>
 <wire x1="12.7644" y1="14.3256" x2="12.7644" y2="14.9724" width="0.254" layer="1"/>
 <wire x1="12.573" y1="15.1638" x2="10.2616" y2="15.1638" width="0.254" layer="1"/>
@@ -4460,36 +4456,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,16,7fb3f002fd8bd422"/>
-<approved hash="19,16,722b15694cefb437"/>
-<approved hash="4,1,e2b0198f50b6e170"/>
-<approved hash="4,1,66b6e98cd0a9416a"/>
-<approved hash="4,1,f0fef15908a4fffc"/>
-<approved hash="4,1,1ec2e360d8a56ffe"/>
-<approved hash="4,1,94c0596498a44fff"/>
-<approved hash="4,1,66c1676668a69ffe"/>
-<approved hash="4,1,90b86b80a0b8517b"/>
-<approved hash="4,1,f0b2f78ec08f314c"/>
-<approved hash="4,1,58b1938e70b2a172"/>
-<approved hash="4,1,66b0618ca0b05173"/>
-<approved hash="4,1,68b2f790f0b14172"/>
-<approved hash="4,1,6cc9916e68aa9ff6"/>
-<approved hash="4,1,f0c0696778bacffc"/>
-<approved hash="4,1,eed8677f78a6eff8"/>
-<approved hash="4,16,e2b0198f50b6e170"/>
-<approved hash="4,16,66b6e98cd0a9416a"/>
-<approved hash="4,16,90b86b80a0b8517b"/>
-<approved hash="4,16,f0b2f78ec08f314c"/>
-<approved hash="4,16,58b1938e70b2a172"/>
-<approved hash="4,16,66b0618ca0b05173"/>
-<approved hash="4,16,68b2f790f0b14172"/>
-<approved hash="4,16,6cc9916e68aa9ff6"/>
-<approved hash="4,16,f0c0696778bacffc"/>
-<approved hash="4,16,eed8677f78a6eff8"/>
-<approved hash="4,16,f0fef15908a4fffc"/>
-<approved hash="4,16,1ec2e360d8a56ffe"/>
-<approved hash="4,16,94c0596498a44fff"/>
-<approved hash="4,16,66c1676668a69ffe"/>
+<approved hash="5,16,28e6517e3ad6a1f3"/>
+<approved hash="19,16,1e58063b66cd8275"/>
 </errors>
 </board>
 </drawing>

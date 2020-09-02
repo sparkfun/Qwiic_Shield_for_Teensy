@@ -24951,7 +24951,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1_BP" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
-<part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL" value=""/>
+<part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL" value="SMD_5.2MM"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -25058,7 +25058,6 @@ to bypass D1</text>
 </instance>
 <instance part="S1" gate="G$1" x="109.22" y="106.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="110.744" y="106.68" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="108.712" y="106.68" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="GND4" gate="1" x="109.22" y="96.52" smashed="yes">
 <attribute name="VALUE" x="106.68" y="93.98" size="1.778" layer="96" font="vector"/>
