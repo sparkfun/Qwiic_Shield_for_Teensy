@@ -24539,22 +24539,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Boards">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-This library contains footprints for SparkFun breakout boards, microcontrollers (Arduino, Particle, Teensy, etc.),  breadboards, non-RF modules, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="teensy_boards">
 <packages>
-<package name="TEENSY-3.1_NOSILK">
+<package name="TEENSY_NOSILK">
 <description>&lt;h3&gt;Teensy 3 Footprint- No Silk Label on Pins&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
@@ -24621,7 +24608,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="22"/>
 </package>
-<package name="TEENSY-3.1">
+<package name="TEENSY">
 <description>&lt;h3&gt;Teensy 3 Footprint&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
@@ -24766,7 +24753,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="TEENSY-31">
+<symbol name="TEENSY">
 <description>&lt;h3&gt;Teensy 3.1&lt;/h3&gt;
 &lt;p&gt;Breaks out all the PTH pins on the Teensy 3.1. Does not break out all of the additional SMD pins on the underside of the Teensy, or the external crystal pins. &lt;/p&gt;</description>
 <wire x1="-15.24" y1="-33.02" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
@@ -24815,19 +24802,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEENSY-3.1" prefix="B">
-<description>&lt;h3&gt;Teensy 3+ Footprint&lt;/h3&gt;
+<deviceset name="TEENSY" prefix="B">
+<description>&lt;h3&gt;Teensy Footprint&lt;/h3&gt;
 &lt;p&gt;Mechanical footprint with connectors for Teensy Development Board with ARM Cortex.&lt;/p&gt;
 
 &lt;b&gt;&lt;p&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13736"&gt;Teensy 3.2&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/15583"&gt;Teensy 4.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13736"&gt;Teensy 3.2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13305"&gt;Teensy LC&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/"&gt;SparkFun Qwiic Shield for Teensy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="TEENSY-31" x="0" y="0"/>
+<gate name="G$1" symbol="TEENSY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SILK" package="TEENSY-3.1">
+<device name="SILK" package="TEENSY">
 <connects>
 <connect gate="G$1" pin="0/RX1" pad="0"/>
 <connect gate="G$1" pin="1/TX1" pad="1"/>
@@ -24873,7 +24864,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="NOSILK" package="TEENSY-3.1_NOSILK">
+<device name="NOSILK" package="TEENSY_NOSILK">
 <connects>
 <connect gate="G$1" pin="0/RX1" pad="0"/>
 <connect gate="G$1" pin="1/TX1" pad="1"/>
@@ -24934,9 +24925,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_Vertical"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_Vertical"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
@@ -24945,7 +24936,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP11" library="SparkFun-Boards" deviceset="TEENSY-3.1" device="NOSILK" value="TEENSY"/>
+<part name="J1" library="teensy_boards" deviceset="TEENSY" device="NOSILK" value="TEENSY"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
@@ -24954,8 +24945,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_5MM"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_Vertical"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK" value="ALT PWR"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_Vertical"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK" value="ALT PWR"/>
 <part name="3V3_ISO" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1_BP" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
@@ -24992,15 +24983,15 @@ to bypass D1</text>
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="J1" gate="G$1" x="190.5" y="154.94" smashed="yes">
+<instance part="J2" gate="G$1" x="190.5" y="154.94" smashed="yes">
 <attribute name="VALUE" x="185.42" y="149.606" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="185.42" y="162.814" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J2" gate="G$1" x="190.5" y="137.16" smashed="yes">
+<instance part="J3" gate="G$1" x="190.5" y="137.16" smashed="yes">
 <attribute name="VALUE" x="185.42" y="131.826" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="185.42" y="145.034" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J4" gate="G$1" x="190.5" y="101.6" smashed="yes">
+<instance part="J5" gate="G$1" x="190.5" y="101.6" smashed="yes">
 <attribute name="VALUE" x="185.42" y="96.266" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="185.42" y="109.474" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -25016,7 +25007,7 @@ to bypass D1</text>
 <instance part="FD2" gate="G$1" x="241.3" y="33.02" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="241.3" y="27.94" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="246.38" y="27.94" smashed="yes"/>
-<instance part="JP11" gate="G$1" x="86.36" y="93.98" smashed="yes">
+<instance part="J1" gate="G$1" x="86.36" y="93.98" smashed="yes">
 <attribute name="NAME" x="81.28" y="127" size="1.778" layer="95" font="vector" align="top-left"/>
 <attribute name="VALUE" x="81.28" y="58.42" size="1.778" layer="96" font="vector"/>
 </instance>
@@ -25042,11 +25033,11 @@ to bypass D1</text>
 </instance>
 <instance part="LOGO4" gate="G$1" x="228.6" y="48.26" smashed="yes"/>
 <instance part="LOGO2" gate="G$1" x="187.4266" y="53.2384" smashed="yes"/>
-<instance part="J3" gate="G$1" x="190.5" y="119.38" smashed="yes">
+<instance part="J4" gate="G$1" x="190.5" y="119.38" smashed="yes">
 <attribute name="VALUE" x="185.42" y="114.046" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="185.42" y="127.254" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J5" gate="G$1" x="12.7" y="81.28" smashed="yes">
+<instance part="J6" gate="G$1" x="12.7" y="81.28" smashed="yes">
 <attribute name="VALUE" x="10.16" y="76.454" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="10.16" y="86.868" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -25078,33 +25069,33 @@ to bypass D1</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="198.12" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="99.06" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
 <junction x="205.74" y="99.06"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="99.06" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="116.84" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="134.62" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="134.62" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <junction x="205.74" y="134.62"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
 <junction x="205.74" y="116.84"/>
 </segment>
 <segment>
-<pinref part="JP11" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="68.58" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="66.04" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="G$1" pin="GND1"/>
+<pinref part="J1" gate="G$1" pin="GND1"/>
 <wire x1="63.5" y1="63.5" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
 <junction x="63.5" y="63.5"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="JP11" gate="G$1" pin="AGND"/>
+<pinref part="J1" gate="G$1" pin="AGND"/>
 <wire x1="68.58" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="68.58" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <junction x="63.5" y="66.04"/>
@@ -25112,7 +25103,7 @@ to bypass D1</text>
 <segment>
 <wire x1="22.86" y1="81.28" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -25123,20 +25114,20 @@ to bypass D1</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="154.94" x2="208.28" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 <wire x1="208.28" y1="154.94" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="154.94" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
 <junction x="208.28" y="154.94"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <junction x="208.28" y="137.16"/>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="137.16" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="119.38" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
 <junction x="208.28" y="119.38"/>
 </segment>
@@ -25162,17 +25153,17 @@ to bypass D1</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="157.48" x2="210.82" y2="157.48" width="0.1524" layer="91"/>
 <label x="210.82" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 <label x="210.82" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="3"/>
+<pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
 <label x="210.82" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -25183,27 +25174,27 @@ to bypass D1</text>
 <wire x1="129.54" y1="119.38" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <junction x="129.54" y="116.84"/>
 <label x="132.08" y="116.84" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="JP11" gate="G$1" pin="A4/18/SDA0"/>
+<pinref part="J1" gate="G$1" pin="A4/18/SDA0"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="121.92" x2="210.82" y2="121.92" width="0.1524" layer="91"/>
 <label x="210.82" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="160.02" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
 <label x="210.82" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
 <label x="210.82" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="4"/>
+<pinref part="J5" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
 <label x="210.82" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -25214,12 +25205,12 @@ to bypass D1</text>
 <wire x1="114.3" y1="119.38" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <junction x="114.3" y="114.3"/>
 <label x="132.08" y="114.3" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="JP11" gate="G$1" pin="A5/19/SCL0"/>
+<pinref part="J1" gate="G$1" pin="A5/19/SCL0"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="124.46" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
 <label x="210.82" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -25240,7 +25231,7 @@ to bypass D1</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="D1_BP" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
@@ -25252,7 +25243,7 @@ to bypass D1</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="JP11" gate="G$1" pin="PROG"/>
+<pinref part="J1" gate="G$1" pin="PROG"/>
 <wire x1="101.6" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="121.92" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
@@ -25260,14 +25251,14 @@ to bypass D1</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="JP11" gate="G$1" pin="3V"/>
+<pinref part="J1" gate="G$1" pin="3V"/>
 <pinref part="3V3_ISO" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NC" class="0">
 <segment>
-<pinref part="JP11" gate="G$1" pin="3.3V"/>
+<pinref part="J1" gate="G$1" pin="3.3V"/>
 <wire x1="68.58" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 <label x="66.04" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>

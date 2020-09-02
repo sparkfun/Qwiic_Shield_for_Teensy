@@ -149,7 +149,7 @@
 </layers>
 <library>
 <packages>
-<package name="TEENSY-3.1">
+<package name="TEENSY">
 <description>&lt;h3&gt;Teensy 3 Footprint&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
@@ -292,7 +292,7 @@
 <text x="6.35" y="14.605" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="top-right">11</text>
 <text x="-5.3975" y="13.335" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-right">A0</text>
 </package>
-<package name="TEENSY-3.1_NOSILK">
+<package name="TEENSY_NOSILK">
 <description>&lt;h3&gt;Teensy 3 Footprint- No Silk Label on Pins&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
@@ -359,7 +359,7 @@
 <wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="22"/>
 </package>
-<package name="TEENSY-LONG">
+<package name="TEENSY_EXTENDED">
 <description>&lt;h3&gt;Teensy 3 Footprint&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
@@ -558,7 +558,7 @@ GND</text>
 <text x="-6.35" y="39.37" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">34</text>
 <text x="-6.35" y="41.91" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">33</text>
 </package>
-<package name="TEENSY-LONG_NO_SILK">
+<package name="TEENSY_EXTENDED_NO_SILK">
 <description>&lt;h3&gt;Teensy 3 Footprint&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
@@ -640,7 +640,7 @@ GND</text>
 </package>
 </packages>
 <symbols>
-<symbol name="TEENSY-31">
+<symbol name="TEENSY">
 <description>&lt;h3&gt;Teensy 3.1&lt;/h3&gt;
 &lt;p&gt;Breaks out all the PTH pins on the Teensy 3.1. Does not break out all of the additional SMD pins on the underside of the Teensy, or the external crystal pins. &lt;/p&gt;</description>
 <wire x1="-15.24" y1="-33.02" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
@@ -687,7 +687,7 @@ GND</text>
 <pin name="9*/RX2" x="15.24" y="-10.16" length="short" rot="R180"/>
 <pin name="PROG" x="15.24" y="27.94" length="short" rot="R180"/>
 </symbol>
-<symbol name="TEENSY-LONG">
+<symbol name="TEENSY_EXTENDED">
 <description>&lt;h3&gt;Teensy 3.1&lt;/h3&gt;
 &lt;p&gt;Breaks out all the PTH pins on the Teensy 3.1. Does not break out all of the additional SMD pins on the underside of the Teensy, or the external crystal pins. &lt;/p&gt;</description>
 <wire x1="-15.24" y1="-45.72" x2="-15.24" y2="38.1" width="0.254" layer="94"/>
@@ -757,19 +757,23 @@ GND</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEENSY-3.1" prefix="B">
-<description>&lt;h3&gt;Teensy 3+ Footprint&lt;/h3&gt;
+<deviceset name="TEENSY" prefix="B">
+<description>&lt;h3&gt;Teensy Footprint&lt;/h3&gt;
 &lt;p&gt;Mechanical footprint with connectors for Teensy Development Board with ARM Cortex.&lt;/p&gt;
 
 &lt;b&gt;&lt;p&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13736"&gt;Teensy 3.2&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/15583"&gt;Teensy 4.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13736"&gt;Teensy 3.2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13305"&gt;Teensy LC&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/"&gt;SparkFun Qwiic Shield for Teensy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="TEENSY-31" x="0" y="0"/>
+<gate name="G$1" symbol="TEENSY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SILK" package="TEENSY-3.1">
+<device name="SILK" package="TEENSY">
 <connects>
 <connect gate="G$1" pin="0/RX1" pad="0"/>
 <connect gate="G$1" pin="1/TX1" pad="1"/>
@@ -815,7 +819,7 @@ GND</text>
 </technology>
 </technologies>
 </device>
-<device name="NOSILK" package="TEENSY-3.1_NOSILK">
+<device name="NOSILK" package="TEENSY_NOSILK">
 <connects>
 <connect gate="G$1" pin="0/RX1" pad="0"/>
 <connect gate="G$1" pin="1/TX1" pad="1"/>
@@ -863,12 +867,21 @@ GND</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEENSY-LONG">
+<deviceset name="TEENSY_EXTENDED">
+<description>&lt;h3&gt;Teensy Footprint Extended&lt;/h3&gt;
+&lt;p&gt;Mechanical footprint with connectors for Teensy Development Board with ARM Cortex.&lt;/p&gt;
+
+&lt;b&gt;&lt;p&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/16771"&gt;Teensy 4.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/14057"&gt;Teensy 3.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/14055"&gt;Teensy 3.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/"&gt;SparkFun Qwiic Shield for Teensy Extended&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="TEENSY-LONG" x="0" y="0"/>
+<gate name="G$1" symbol="TEENSY_EXTENDED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="W_SILK" package="TEENSY-LONG">
+<device name="W_SILK" package="TEENSY_EXTENDED">
 <connects>
 <connect gate="G$1" pin="0/RX1" pad="0"/>
 <connect gate="G$1" pin="1/TX1" pad="1"/>
@@ -933,7 +946,7 @@ GND</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="NO_SILK" package="TEENSY-LONG_NO_SILK">
+<device name="NO_SILK" package="TEENSY_EXTENDED_NO_SILK">
 <connects>
 <connect gate="G$1" pin="0/RX1" pad="0"/>
 <connect gate="G$1" pin="1/TX1" pad="1"/>

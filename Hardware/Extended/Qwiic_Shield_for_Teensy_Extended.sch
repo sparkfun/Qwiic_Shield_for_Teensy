@@ -21421,7 +21421,87 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </library>
 <library name="teensy_boards">
 <packages>
-<package name="TEENSY-LONG">
+<package name="TEENSY_EXTENDED_NO_SILK">
+<description>&lt;h3&gt;Teensy 3 Footprint&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
+&lt;li&gt;Area:0.7x1.4"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;Teensy 3.1&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="8.89" y1="-17.78" x2="3.81" y2="-17.78" width="0.127" layer="51"/>
+<pad name="13" x="-7.62" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="14" x="-7.62" y="13.97" drill="1.016" diameter="1.8796"/>
+<pad name="15" x="-7.62" y="11.43" drill="1.016" diameter="1.8796"/>
+<pad name="16" x="-7.62" y="8.89" drill="1.016" diameter="1.8796"/>
+<pad name="17" x="-7.62" y="6.35" drill="1.016" diameter="1.8796"/>
+<pad name="18" x="-7.62" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="19" x="-7.62" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="20" x="-7.62" y="-1.27" drill="1.016" diameter="1.8796"/>
+<pad name="21" x="-7.62" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="22" x="-7.62" y="-6.35" drill="1.016" diameter="1.8796"/>
+<pad name="23" x="-7.62" y="-8.89" drill="1.016" diameter="1.8796"/>
+<pad name="3V" x="-7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
+<pad name="AGND" x="-7.62" y="-13.97" drill="1.016" diameter="1.8796"/>
+<pad name="VIN" x="-7.62" y="-16.51" drill="1.016" diameter="1.8796"/>
+<pad name="12" x="7.62" y="16.51" drill="1.016" diameter="1.8796"/>
+<pad name="11" x="7.62" y="13.97" drill="1.016" diameter="1.8796"/>
+<pad name="10" x="7.62" y="11.43" drill="1.016" diameter="1.8796"/>
+<pad name="9" x="7.62" y="8.89" drill="1.016" diameter="1.8796"/>
+<pad name="8" x="7.62" y="6.35" drill="1.016" diameter="1.8796"/>
+<pad name="7" x="7.62" y="3.81" drill="1.016" diameter="1.8796"/>
+<pad name="6" x="7.62" y="1.27" drill="1.016" diameter="1.8796"/>
+<pad name="5" x="7.62" y="-1.27" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="7.62" y="-3.81" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="7.62" y="-6.35" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="7.62" y="-8.89" drill="1.016" diameter="1.8796"/>
+<pad name="1" x="7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
+<pad name="0" x="7.62" y="-13.97" drill="1.016" diameter="1.8796"/>
+<pad name="GND1" x="7.62" y="-16.51" drill="1.016" diameter="1.8796"/>
+<pad name="R" x="-5.08" y="29.21" drill="1.016" diameter="1.8796"/>
+<pad name="PROG" x="-2.54" y="29.21" drill="1.016" diameter="1.8796"/>
+<pad name="GND" x="0" y="29.21" drill="1.016" diameter="1.8796"/>
+<pad name="3.3V@2" x="2.54" y="29.21" drill="1.016" diameter="1.8796"/>
+<pad name="VBAT" x="5.08" y="29.21" drill="1.016" diameter="1.8796"/>
+<pad name="GND3" x="3.81" y="-2.54" drill="1.016" diameter="1.8796"/>
+<pad name="D+" x="3.81" y="-5.08" drill="1.016" diameter="1.8796"/>
+<pad name="D-" x="3.81" y="-7.62" drill="1.016" diameter="1.8796"/>
+<pad name="5V" x="3.81" y="-10.16" drill="1.016" diameter="1.8796"/>
+<text x="0" y="18.034" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-19.304" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="3.81" y1="-17.78" x2="-3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-19.05" x2="3.81" y2="-19.05" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-19.05" x2="-3.81" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-19.05" x2="3.81" y2="-17.78" width="0.127" layer="51"/>
+<pad name="24" x="7.62" y="21.59" drill="1.016" diameter="1.8796"/>
+<pad name="25" x="7.62" y="24.13" drill="1.016" diameter="1.8796"/>
+<pad name="26" x="7.62" y="26.67" drill="1.016" diameter="1.8796"/>
+<pad name="27" x="7.62" y="29.21" drill="1.016" diameter="1.8796"/>
+<pad name="28" x="7.62" y="31.75" drill="1.016" diameter="1.8796"/>
+<pad name="29" x="7.62" y="34.29" drill="1.016" diameter="1.8796"/>
+<pad name="30" x="7.62" y="36.83" drill="1.016" diameter="1.8796"/>
+<pad name="31" x="7.62" y="39.37" drill="1.016" diameter="1.8796"/>
+<pad name="32" x="7.62" y="41.91" drill="1.016" diameter="1.8796"/>
+<pad name="33" x="-7.62" y="41.91" drill="1.016" diameter="1.8796"/>
+<pad name="34" x="-7.62" y="39.37" drill="1.016" diameter="1.8796"/>
+<pad name="35" x="-7.62" y="36.83" drill="1.016" diameter="1.8796"/>
+<pad name="36" x="-7.62" y="34.29" drill="1.016" diameter="1.8796"/>
+<pad name="37" x="-7.62" y="31.75" drill="1.016" diameter="1.8796"/>
+<pad name="38" x="-7.62" y="29.21" drill="1.016" diameter="1.8796"/>
+<pad name="39" x="-7.62" y="26.67" drill="1.016" diameter="1.8796"/>
+<pad name="40" x="-7.62" y="24.13" drill="1.016" diameter="1.8796"/>
+<pad name="41" x="-7.62" y="21.59" drill="1.016" diameter="1.8796"/>
+<pad name="GND2" x="-7.62" y="19.05" drill="1.016" diameter="1.8796"/>
+<pad name="3.3V@1" x="7.62" y="19.05" drill="1.016" diameter="1.8796"/>
+<pad name="GND4" x="3.81" y="0" drill="1.016" diameter="1.8796"/>
+<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="43.18" width="0.1524" layer="51"/>
+<wire x1="-8.89" y1="43.18" x2="8.89" y2="43.18" width="0.1524" layer="51"/>
+<wire x1="8.89" y1="43.18" x2="8.89" y2="-17.78" width="0.1524" layer="51"/>
+</package>
+<package name="TEENSY_EXTENDED">
 <description>&lt;h3&gt;Teensy 3 Footprint&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
@@ -21620,89 +21700,9 @@ GND</text>
 <text x="-6.35" y="39.37" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">34</text>
 <text x="-6.35" y="41.91" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="bottom-center">33</text>
 </package>
-<package name="TEENSY-LONG_NO_SILK">
-<description>&lt;h3&gt;Teensy 3 Footprint&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:37&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
-&lt;li&gt;Area:0.7x1.4"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;Teensy 3.1&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="8.89" y1="-17.78" x2="3.81" y2="-17.78" width="0.127" layer="51"/>
-<pad name="13" x="-7.62" y="16.51" drill="1.016" diameter="1.8796"/>
-<pad name="14" x="-7.62" y="13.97" drill="1.016" diameter="1.8796"/>
-<pad name="15" x="-7.62" y="11.43" drill="1.016" diameter="1.8796"/>
-<pad name="16" x="-7.62" y="8.89" drill="1.016" diameter="1.8796"/>
-<pad name="17" x="-7.62" y="6.35" drill="1.016" diameter="1.8796"/>
-<pad name="18" x="-7.62" y="3.81" drill="1.016" diameter="1.8796"/>
-<pad name="19" x="-7.62" y="1.27" drill="1.016" diameter="1.8796"/>
-<pad name="20" x="-7.62" y="-1.27" drill="1.016" diameter="1.8796"/>
-<pad name="21" x="-7.62" y="-3.81" drill="1.016" diameter="1.8796"/>
-<pad name="22" x="-7.62" y="-6.35" drill="1.016" diameter="1.8796"/>
-<pad name="23" x="-7.62" y="-8.89" drill="1.016" diameter="1.8796"/>
-<pad name="3V" x="-7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
-<pad name="AGND" x="-7.62" y="-13.97" drill="1.016" diameter="1.8796"/>
-<pad name="VIN" x="-7.62" y="-16.51" drill="1.016" diameter="1.8796"/>
-<pad name="12" x="7.62" y="16.51" drill="1.016" diameter="1.8796"/>
-<pad name="11" x="7.62" y="13.97" drill="1.016" diameter="1.8796"/>
-<pad name="10" x="7.62" y="11.43" drill="1.016" diameter="1.8796"/>
-<pad name="9" x="7.62" y="8.89" drill="1.016" diameter="1.8796"/>
-<pad name="8" x="7.62" y="6.35" drill="1.016" diameter="1.8796"/>
-<pad name="7" x="7.62" y="3.81" drill="1.016" diameter="1.8796"/>
-<pad name="6" x="7.62" y="1.27" drill="1.016" diameter="1.8796"/>
-<pad name="5" x="7.62" y="-1.27" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="7.62" y="-3.81" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="7.62" y="-6.35" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="7.62" y="-8.89" drill="1.016" diameter="1.8796"/>
-<pad name="1" x="7.62" y="-11.43" drill="1.016" diameter="1.8796"/>
-<pad name="0" x="7.62" y="-13.97" drill="1.016" diameter="1.8796"/>
-<pad name="GND1" x="7.62" y="-16.51" drill="1.016" diameter="1.8796"/>
-<pad name="R" x="-5.08" y="29.21" drill="1.016" diameter="1.8796"/>
-<pad name="PROG" x="-2.54" y="29.21" drill="1.016" diameter="1.8796"/>
-<pad name="GND" x="0" y="29.21" drill="1.016" diameter="1.8796"/>
-<pad name="3.3V@2" x="2.54" y="29.21" drill="1.016" diameter="1.8796"/>
-<pad name="VBAT" x="5.08" y="29.21" drill="1.016" diameter="1.8796"/>
-<pad name="GND3" x="3.81" y="-2.54" drill="1.016" diameter="1.8796"/>
-<pad name="D+" x="3.81" y="-5.08" drill="1.016" diameter="1.8796"/>
-<pad name="D-" x="3.81" y="-7.62" drill="1.016" diameter="1.8796"/>
-<pad name="5V" x="3.81" y="-10.16" drill="1.016" diameter="1.8796"/>
-<text x="0" y="18.034" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-19.304" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="3.81" y1="-17.78" x2="-3.81" y2="-17.78" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-17.78" x2="-8.89" y2="-17.78" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-19.05" x2="3.81" y2="-19.05" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="-19.05" x2="-3.81" y2="-17.78" width="0.127" layer="51"/>
-<wire x1="3.81" y1="-19.05" x2="3.81" y2="-17.78" width="0.127" layer="51"/>
-<pad name="24" x="7.62" y="21.59" drill="1.016" diameter="1.8796"/>
-<pad name="25" x="7.62" y="24.13" drill="1.016" diameter="1.8796"/>
-<pad name="26" x="7.62" y="26.67" drill="1.016" diameter="1.8796"/>
-<pad name="27" x="7.62" y="29.21" drill="1.016" diameter="1.8796"/>
-<pad name="28" x="7.62" y="31.75" drill="1.016" diameter="1.8796"/>
-<pad name="29" x="7.62" y="34.29" drill="1.016" diameter="1.8796"/>
-<pad name="30" x="7.62" y="36.83" drill="1.016" diameter="1.8796"/>
-<pad name="31" x="7.62" y="39.37" drill="1.016" diameter="1.8796"/>
-<pad name="32" x="7.62" y="41.91" drill="1.016" diameter="1.8796"/>
-<pad name="33" x="-7.62" y="41.91" drill="1.016" diameter="1.8796"/>
-<pad name="34" x="-7.62" y="39.37" drill="1.016" diameter="1.8796"/>
-<pad name="35" x="-7.62" y="36.83" drill="1.016" diameter="1.8796"/>
-<pad name="36" x="-7.62" y="34.29" drill="1.016" diameter="1.8796"/>
-<pad name="37" x="-7.62" y="31.75" drill="1.016" diameter="1.8796"/>
-<pad name="38" x="-7.62" y="29.21" drill="1.016" diameter="1.8796"/>
-<pad name="39" x="-7.62" y="26.67" drill="1.016" diameter="1.8796"/>
-<pad name="40" x="-7.62" y="24.13" drill="1.016" diameter="1.8796"/>
-<pad name="41" x="-7.62" y="21.59" drill="1.016" diameter="1.8796"/>
-<pad name="GND2" x="-7.62" y="19.05" drill="1.016" diameter="1.8796"/>
-<pad name="3.3V@1" x="7.62" y="19.05" drill="1.016" diameter="1.8796"/>
-<pad name="GND4" x="3.81" y="0" drill="1.016" diameter="1.8796"/>
-<wire x1="-8.89" y1="-17.78" x2="-8.89" y2="43.18" width="0.1524" layer="51"/>
-<wire x1="-8.89" y1="43.18" x2="8.89" y2="43.18" width="0.1524" layer="51"/>
-<wire x1="8.89" y1="43.18" x2="8.89" y2="-17.78" width="0.1524" layer="51"/>
-</package>
 </packages>
 <symbols>
-<symbol name="TEENSY-LONG">
+<symbol name="TEENSY_EXTENDED">
 <description>&lt;h3&gt;Teensy 3.1&lt;/h3&gt;
 &lt;p&gt;Breaks out all the PTH pins on the Teensy 3.1. Does not break out all of the additional SMD pins on the underside of the Teensy, or the external crystal pins. &lt;/p&gt;</description>
 <wire x1="-15.24" y1="-45.72" x2="-15.24" y2="38.1" width="0.254" layer="94"/>
@@ -21772,12 +21772,21 @@ GND</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEENSY-LONG">
+<deviceset name="TEENSY_EXTENDED">
+<description>&lt;h3&gt;Teensy Footprint Extended&lt;/h3&gt;
+&lt;p&gt;Mechanical footprint with connectors for Teensy Development Board with ARM Cortex.&lt;/p&gt;
+
+&lt;b&gt;&lt;p&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/16771"&gt;Teensy 4.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/14057"&gt;Teensy 3.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/14055"&gt;Teensy 3.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/"&gt;SparkFun Qwiic Shield for Teensy Extended&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="TEENSY-LONG" x="0" y="0"/>
+<gate name="G$1" symbol="TEENSY_EXTENDED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="W_SILK" package="TEENSY-LONG">
+<device name="W_SILK" package="TEENSY_EXTENDED">
 <connects>
 <connect gate="G$1" pin="0/RX1" pad="0"/>
 <connect gate="G$1" pin="1/TX1" pad="1"/>
@@ -21842,7 +21851,7 @@ GND</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="NO_SILK" package="TEENSY-LONG_NO_SILK">
+<device name="NO_SILK" package="TEENSY_EXTENDED_NO_SILK">
 <connects>
 <connect gate="G$1" pin="0/RX1" pad="0"/>
 <connect gate="G$1" pin="1/TX1" pad="1"/>
@@ -21922,9 +21931,9 @@ GND</text>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_Vertical"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RA"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_Vertical"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
@@ -21940,15 +21949,15 @@ GND</text>
 <part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39285/1" value="JUMPER-SMT_3_NO_SILK"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_5MM"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK" value="ALT PWR"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK" value="ALT PWR"/>
 <part name="3V3_ISO" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1_BP" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL" value=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$14" library="teensy_boards" deviceset="TEENSY-LONG" device="NO_SILK"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_Vertical"/>
+<part name="J1" library="teensy_boards" deviceset="TEENSY_EXTENDED" device="NO_SILK" value="TEENSY_EXTENDED"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_Vertical"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_5MM"/>
 </parts>
@@ -21981,15 +21990,15 @@ to bypass D1</text>
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="J1" gate="G$1" x="190.5" y="154.94" smashed="yes">
+<instance part="J2" gate="G$1" x="190.5" y="154.94" smashed="yes">
 <attribute name="VALUE" x="185.42" y="149.606" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="185.42" y="162.814" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J2" gate="G$1" x="190.5" y="137.16" smashed="yes">
+<instance part="J3" gate="G$1" x="190.5" y="137.16" smashed="yes">
 <attribute name="VALUE" x="185.42" y="131.826" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="185.42" y="145.034" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J4" gate="G$1" x="190.5" y="101.6" smashed="yes">
+<instance part="J5" gate="G$1" x="190.5" y="101.6" smashed="yes">
 <attribute name="VALUE" x="185.42" y="96.266" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="185.42" y="109.474" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -22026,7 +22035,7 @@ to bypass D1</text>
 <attribute name="VALUE" x="106.68" y="101.854" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="LOGO4" gate="G$1" x="228.6" y="48.26" smashed="yes"/>
-<instance part="J5" gate="G$1" x="10.16" y="116.84" smashed="yes">
+<instance part="J6" gate="G$1" x="10.16" y="116.84" smashed="yes">
 <attribute name="VALUE" x="7.62" y="112.014" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="7.62" y="122.428" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -22052,11 +22061,11 @@ to bypass D1</text>
 <instance part="GND4" gate="1" x="50.8" y="48.26" smashed="yes">
 <attribute name="VALUE" x="48.26" y="45.72" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U$14" gate="G$1" x="78.74" y="86.36" smashed="yes">
-<attribute name="NAME" x="73.66" y="124.714" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="73.66" y="40.386" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="J1" gate="G$1" x="78.74" y="86.36" smashed="yes">
+<attribute name="NAME" x="75.946" y="124.968" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="66.548" y="39.878" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="J3" gate="G$1" x="190.5" y="119.38" smashed="yes">
+<instance part="J4" gate="G$1" x="190.5" y="119.38" smashed="yes">
 <attribute name="VALUE" x="185.42" y="114.046" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="185.42" y="127.254" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -22068,20 +22077,20 @@ to bypass D1</text>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="198.12" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="99.06" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
 <junction x="205.74" y="99.06"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="99.06" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="116.84" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="134.62" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="134.62" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <junction x="205.74" y="134.62"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
 <junction x="205.74" y="116.84"/>
 </segment>
@@ -22095,18 +22104,18 @@ to bypass D1</text>
 <wire x1="60.96" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="48.26" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
 <junction x="55.88" y="45.72"/>
-<pinref part="U$14" gate="G$1" pin="GND4"/>
-<pinref part="U$14" gate="G$1" pin="GND2"/>
-<pinref part="U$14" gate="G$1" pin="GND3"/>
-<pinref part="U$14" gate="G$1" pin="GND1"/>
+<pinref part="J1" gate="G$1" pin="GND4"/>
+<pinref part="J1" gate="G$1" pin="GND2"/>
+<pinref part="J1" gate="G$1" pin="GND3"/>
+<pinref part="J1" gate="G$1" pin="GND1"/>
 <wire x1="60.96" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="50.8" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <junction x="55.88" y="48.26"/>
-<pinref part="U$14" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="60.96" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="53.34" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <junction x="55.88" y="50.8"/>
-<pinref part="U$14" gate="G$1" pin="AGND"/>
+<pinref part="J1" gate="G$1" pin="AGND"/>
 <wire x1="60.96" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="55.88" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 <junction x="55.88" y="53.34"/>
@@ -22114,7 +22123,7 @@ to bypass D1</text>
 <segment>
 <wire x1="20.32" y1="116.84" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -22125,20 +22134,20 @@ to bypass D1</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="154.94" x2="208.28" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 <wire x1="208.28" y1="154.94" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="154.94" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
 <junction x="208.28" y="154.94"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <junction x="208.28" y="137.16"/>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="137.16" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="119.38" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="101.6" x2="198.12" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
 <junction x="208.28" y="119.38"/>
 </segment>
@@ -22164,17 +22173,17 @@ to bypass D1</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="157.48" x2="210.82" y2="157.48" width="0.1524" layer="91"/>
 <label x="210.82" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 <label x="210.82" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="3"/>
+<pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
 <label x="210.82" y="104.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -22185,27 +22194,27 @@ to bypass D1</text>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <junction x="114.3" y="76.2"/>
 <label x="116.84" y="76.2" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="U$14" gate="G$1" pin="18/A4/SDA0"/>
+<pinref part="J1" gate="G$1" pin="18/A4/SDA0"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="121.92" x2="210.82" y2="121.92" width="0.1524" layer="91"/>
 <label x="210.82" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="160.02" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
 <label x="210.82" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
 <label x="210.82" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="4"/>
+<pinref part="J5" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
 <label x="210.82" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -22216,12 +22225,12 @@ to bypass D1</text>
 <wire x1="99.06" y1="78.74" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 <junction x="99.06" y="73.66"/>
 <label x="116.84" y="73.66" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
-<pinref part="U$14" gate="G$1" pin="19/A5/SCL0"/>
+<pinref part="J1" gate="G$1" pin="19/A5/SCL0"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="124.46" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
 <label x="210.82" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22242,7 +22251,7 @@ to bypass D1</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="2"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="D1_BP" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
@@ -22257,14 +22266,14 @@ to bypass D1</text>
 <pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="66.04" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="PROG"/>
+<pinref part="J1" gate="G$1" pin="PROG"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="3V3_ISO" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="119.38" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="3V"/>
+<pinref part="J1" gate="G$1" pin="3V"/>
 </segment>
 </net>
 </nets>
