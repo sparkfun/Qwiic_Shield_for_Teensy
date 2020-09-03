@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -167,15 +167,17 @@
 <wire x1="17.78" y1="0" x2="17.78" y2="35.56" width="0.2032" layer="20"/>
 <wire x1="0" y1="35.56" x2="0" y2="0" width="0.2032" layer="20"/>
 <wire x1="0" y1="35.56" x2="17.78" y2="35.56" width="0.2032" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="35.56" x3="-22.86" y3="17.78" textsize="1.778" layer="47" unit="inch" visible="yes"/>
+<dimension x1="0" y1="0" x2="0" y2="35.56" x3="-19.05" y3="17.78" textsize="1.778" layer="47" unit="inch" visible="yes"/>
 <dimension x1="0" y1="35.56" x2="17.78" y2="35.56" x3="8.89" y3="49.53" textsize="1.778" layer="47" unit="inch" visible="yes"/>
 <dimension x1="9.271" y1="8.9408" x2="9.271" y2="0" x3="-2.54" y3="4.4704" textsize="1.27" layer="47" unit="inch" visible="yes"/>
 <rectangle x1="13.208" y1="0.5842" x2="15.9512" y2="1.9558" layer="22"/>
-<dimension x1="12.7" y1="22.86" x2="17.78" y2="0" x3="39.37" y3="11.43" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="12.7" y1="22.86" x2="17.78" y2="0" x3="29.21" y3="11.43" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
 <dimension x1="12.7" y1="22.86" x2="0" y2="38.1" x3="6.35" y3="45.72" textsize="1.778" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
 <dimension x1="6.35" y1="22.86" x2="0" y2="41.91" x3="3.175" y3="38.1" textsize="1.778" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
-<dimension x1="6.5278" y1="25.3746" x2="-12.7" y2="0" x3="-11.43" y3="12.6873" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
-<dimension x1="6.3754" y1="19.0246" x2="-6.35" y2="0" x3="-16.51" y3="9.5123" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="6.5278" y1="25.3746" x2="-8.89" y2="0" x3="-7.62" y3="12.6873" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="6.3754" y1="19.0246" x2="-6.35" y2="0" x3="-12.7" y3="9.5123" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="8.89" y1="2.54" x2="0" y2="0" x3="4.445" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal" unit="inch" visible="yes"/>
+<dimension x1="8.89" y1="2.54" x2="29.21" y2="0" x3="24.13" y3="1.27" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
